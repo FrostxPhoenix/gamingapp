@@ -1,0 +1,22 @@
+.searchBar {
+    background-color: #202020;
+    padding-top: 15px;
+}
+
+.searchInput {
+    text-align: center;
+}
+
+.platform {
+    height: 125px;
+}
+
+.platformIcon {
+    height: 125px;
+}
+
+.main-content {
+    background-color: white;
+    height: 1080px;
+    margin: 0 12.5% 0 14.5%;
+}

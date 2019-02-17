@@ -1,0 +1,35 @@
+<div>
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Gaming App</a>
+        <div class="col-lg-7"></div>
+        <div class="col-lg-3">
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="What game do I want...">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div  class="col-lg-1">
+            <i class="fas fa-user-circle fa-2x" style="color: white; margin-left: 45%;" ngbPopover="Stuff." popoverTitle="My Profile" triggers="manual" #p="ngbPopover" (click)="p.toggle()"
+               placement="bottom"></i>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col playstation-blue text-center">
+                <img src="../assets/playstationLogo.svg" class="platformIcon" alt="playstationLogo">
+            </div>
+            <div class="col nintendo-red text-center">
+                <img src="../assets/switchLogo.svg" class="platformIcon" alt="nintendo switch">
+            </div>
+            <div class="col xbox-green text-center">
+                <img src="../assets/xboxLogo.svg" class="platformIcon" alt="xbox">
+            </div>
+            <div class="col nintendo-red text-center">
+                <img src="../assets/3dsLogo.svg" class="platformIcon" alt="nintendo 3ds">
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        Testing
+    </div>
+</div>
